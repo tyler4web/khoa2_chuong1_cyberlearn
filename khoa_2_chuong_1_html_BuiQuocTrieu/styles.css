@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.3rem;
+}
+
+/* header */
+
+header img {
+  width: 80px;
+}
+
+header h1 {
+  color: white;
+  background-color: red;
+}
+
+header ul {
+  list-style-type: none;
+  /* border: 2px solid black; */
+  margin: 0;
+  padding: 0;
+}
+
+#gioiThieu,
+#phatTrien {
+  background-color: rgb(151, 26, 26);
+  color: white;
+}
+
+#gioiThieu span {
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 10px;
+}
+
+main img {
+  width: 700px;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+#khuyenMai {
+  border: 1px solid black;
+  margin: 0 10%;
+}
+
+#khuyenMai h1 {
+  color: red;
+  text-align: center;
+}
+
+#khuyenMai ol {
+}
